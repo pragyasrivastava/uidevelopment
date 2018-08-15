@@ -3,5 +3,5 @@ let checkingAccountBalance = 200
 let savingsAccountBalance = 1000
 let retirementAccountBalance = 20000
 
-let totalBalance = sum ([checking checkingAccountBalance, savingsAccountBalance, retirementAccountBalance])
+let totalBalance = sum ([checkingAccountBalance, savingsAccountBalance, retirementAccountBalance])
 Console.log(totalBalance) //output will be total balance
